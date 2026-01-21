@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+header {
+  background: #020617;
+  padding: 15px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f8fafc;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.grid {
+  display: flex;
+    float: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+
+.card {
+  background: #020617;
+  padding: 15px;
+  max-width:500px;
+  height: fit-content;
+}
+
+video {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input, textarea, button {
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+#skills ul{
+    list-style-type: none;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px,20px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
+.kartu{
+    width: 100%;
+    max-width: 600px;
+    background-color:#131A2B;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0,0,30px #ffffff;
+    
+}
+.judul{
+    color:#ffffff;
+    font-size: 48px;
+    margin: 0,0,10px,0;
+    text-shadow: 0,0,10px #ffffff;
+    font-family: Romans;
+}
+.sub-judul{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.medsos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131A2B;
+    color: #ffffff;
+    transition: all 0,3s ease;
+}
+.medsos a:hover{
+    background-color: #131A2B;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+}
+.medsos i{
+    font-size: 24px;
+    width: 40px;
+    text-align: left;
+}
+.medsos span{
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px solid #ffffff;
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+#icon{
+    width: 30px;
+    border-radius: 15px;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(./font/Coolvetica\ Rg.otf);
+}
+@font-face {
+    font-family:Romans ;
+    src: url(./font/Romans\ Story.otf);
+}
+
+#Apk {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+#Apk #figma{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+#Apk #am{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+#Apk #ps{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+#Apk #ai{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: white 0px 0px 2px 2px;
+}
