@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+header {
+  background: #020617;
+  padding: 15px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f8fafc;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+.hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Apk {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+#Apk #icon{
+    margin-top: 20px;
+    margin-right: 20px ;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+section {
+  padding: 20px 40px;
+}
+
+#about{
+    padding: 10px 40px;
+}
