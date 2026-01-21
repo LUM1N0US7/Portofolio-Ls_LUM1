@@ -53,10 +53,8 @@ nav a {
     width: 100px;
     height: 100px;
       display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 #Apk #icon{
     margin-top: 20px;
